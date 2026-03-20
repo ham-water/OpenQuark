@@ -1,7 +1,7 @@
 export type SearchInput = {
   rawQuery: string;
   goal: string;
-  domain?: string;
+  domain: string;
   possibleTechs: string[];
   searchQueries: string[];
 };
